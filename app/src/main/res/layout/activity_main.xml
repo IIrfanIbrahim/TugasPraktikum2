@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/stb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Stambuk"
+
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama"
+
+    />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Studi"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioGroup
+            android:id="@+id/radioGrup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/ti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teknik Informatika "/>
+
+
+
+            <RadioButton
+                android:id="@+id/si"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sistem Informasi "/>
+
+
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minat"/>
+
+    <CheckBox
+        android:id="@+id/bem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Badan Eksekutif Mashasiswa"/>
+    <CheckBox
+        android:id="@+id/penulisan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penulisan Karya Ilmiah"/>
+    <CheckBox
+        android:id="@+id/usaha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kewirausahaan"/>
+    <CheckBox
+        android:id="@+id/seni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kesenian"/>
+    <CheckBox
+        android:id="@+id/junalistik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurnalistik"/>
+    <CheckBox
+        android:id="@+id/olahraga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olahraga"/>
+
+    <Button
+        android:id="@+id/pindah"
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAMPILKAN RINGKASAN"/>
+
+
+
+
+</LinearLayout>
